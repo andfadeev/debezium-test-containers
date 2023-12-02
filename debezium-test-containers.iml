@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="BuildSystem">
+    <option name="buildSystemId" value="LEININGEN" />
+    <option name="displayName" value="debezium-test-containers:0.1.0-SNAPSHOT" />
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/dev-resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Leiningen: aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.core/jackson-annotations:2.13.5" level="project" />
+    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.core/jackson-core:2.13.5" level="project" />
+    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.core/jackson-databind:2.13.5" level="project" />
+    <orderEntry type="library" name="Leiningen: com.github.docker-java/docker-java-api:3.3.4" level="project" />
+    <orderEntry type="library" name="Leiningen: com.github.docker-java/docker-java-transport-zerodep:3.3.4" level="project" />
+    <orderEntry type="library" name="Leiningen: com.github.docker-java/docker-java-transport:3.3.4" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.guava/failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.guava/guava:31.1-jre" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.inject/guice:5.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: com.squareup.okhttp3/okhttp:4.8.1" level="project" />
+    <orderEntry type="library" name="Leiningen: com.squareup.okio/okio:2.7.0" level="project" />
+    <orderEntry type="library" name="Leiningen: commons-cli:1.5.0" level="project" />
+    <orderEntry type="library" name="Leiningen: commons-codec:1.15" level="project" />
+    <orderEntry type="library" name="Leiningen: commons-io:2.13.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.debezium/debezium-testing-testcontainers:2.4.1.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.github.crac/org-crac:0.1.3" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus.gizmo/gizmo:1.6.1.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-bootstrap-app-model:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-bootstrap-core:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-bootstrap-gradle-resolver:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-bootstrap-maven-resolver:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-bootstrap-runner:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-builder:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-class-change-agent:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-core-deployment:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-core:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-development-mode-spi:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-devtools-utilities:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-fs-util:0.0.9" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-ide-launcher:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.quarkus/quarkus-test-common:3.2.3.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.beanbag/smallrye-beanbag-maven:1.3.2" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.beanbag/smallrye-beanbag-sisu:1.3.2" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.beanbag/smallrye-beanbag:1.3.2" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.common/smallrye-common-annotation:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.common/smallrye-common-classloader:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.common/smallrye-common-constraint:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.common/smallrye-common-expression:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.common/smallrye-common-function:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.common/smallrye-common-io:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.common/smallrye-common-os:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.config/smallrye-config-common:3.3.2" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.config/smallrye-config-core:3.3.2" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye.config/smallrye-config:3.3.2" level="project" />
+    <orderEntry type="library" name="Leiningen: io.smallrye/jandex:3.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: jakarta.annotation/jakarta.annotation-api:2.1.1" level="project" />
+    <orderEntry type="library" name="Leiningen: jakarta.el/jakarta.el-api:5.0.0" level="project" />
+    <orderEntry type="library" name="Leiningen: jakarta.enterprise/jakarta.enterprise.cdi-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: jakarta.enterprise/jakarta.enterprise.lang-model:4.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: jakarta.inject/jakarta.inject-api:2.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: jakarta.interceptor/jakarta.interceptor-api:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: javax.annotation/javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" name="Leiningen: javax.inject:1" level="project" />
+    <orderEntry type="library" name="Leiningen: junit:4.13.2" level="project" />
+    <orderEntry type="library" name="Leiningen: net.java.dev.jna/jna:5.13.0" level="project" />
+    <orderEntry type="library" name="Leiningen: nrepl:1.0.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.aesh/aesh:2.7" level="project" />
+    <orderEntry type="library" name="Leiningen: org.aesh/readline:2.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.commons/commons-compress:1.24.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.commons/commons-lang3:3.12.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpclient:4.5.14" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpcore:4.4.16" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.resolver/maven-resolver-api:1.9.10" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.resolver/maven-resolver-connector-basic:1.9.13" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.resolver/maven-resolver-impl:1.9.10" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.resolver/maven-resolver-named-locks:1.9.10" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.resolver/maven-resolver-spi:1.9.10" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.resolver/maven-resolver-transport-http:1.9.10" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.resolver/maven-resolver-transport-wagon:1.9.13" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.resolver/maven-resolver-util:1.9.10" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.shared/maven-shared-utils:3.3.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.wagon/wagon-file:3.5.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.wagon/wagon-http-shared:3.5.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.wagon/wagon-http:3.5.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.wagon/wagon-provider-api:3.5.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-api-meta:4.0.0-alpha-5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-api-xml:4.0.0-alpha-5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-artifact:3.9.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-builder-support:3.9.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-core:3.9.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-embedder:3.9.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-model-builder:3.9.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-model:3.9.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-plugin-api:3.9.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-repository-metadata:3.9.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-resolver-provider:3.9.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-settings-builder:3.9.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-settings:3.9.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-xml-impl:4.0.0-alpha-5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apiguardian/apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.awaitility/awaitility:4.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.11.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.specs.alpha:0.2.62" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/spec.alpha:0.3.218" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-cipher:2.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-classworlds:2.7.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-component-annotations:2.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-interpolation:1.26" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-sec-dispatcher:2.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-utils:4.0.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-xml:4.0.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.eclipse.microprofile.config/microprofile-config-api:3.0.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.eclipse.sisu/org.eclipse.sisu.inject:0.3.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.eclipse.sisu/org.eclipse.sisu.plexus:0.3.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.fusesource.jansi/jansi:2.4.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.graalvm.sdk/graal-sdk:23.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.hamcrest/hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.hamcrest/hamcrest:2.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jboss.logging/commons-logging-jboss-logging:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jboss.logging/jboss-logging-annotations:2.2.1.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jboss.logging/jboss-logging:3.5.1.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jboss.logmanager/jboss-logmanager-embedded:1.0.11" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jboss.threads/jboss-threads:3.5.0.Final" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jetbrains.kotlin/kotlin-stdlib-common:1.3.70" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jetbrains.kotlin/kotlin-stdlib:1.3.72" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jetbrains/annotations:17.0.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.junit.jupiter/junit-jupiter-api:5.9.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.junit.jupiter/junit-jupiter-engine:5.9.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.junit.jupiter/junit-jupiter-params:5.9.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.junit.jupiter/junit-jupiter:5.9.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.junit.platform/junit-platform-commons:1.9.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.junit.platform/junit-platform-engine:1.9.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.junit.platform/junit-platform-launcher:1.9.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.nrepl/incomplete:0.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.opentest4j/opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.ow2.asm/asm-analysis:9.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.ow2.asm/asm-commons:9.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.ow2.asm/asm-tree:9.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.ow2.asm/asm-util:9.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.ow2.asm/asm:9.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.rnorth.duct-tape/duct-tape:1.0.8" level="project" />
+    <orderEntry type="library" name="Leiningen: org.slf4j/jcl-over-slf4j:1.7.36" level="project" />
+    <orderEntry type="library" name="Leiningen: org.slf4j/slf4j-api:1.7.36" level="project" />
+    <orderEntry type="library" name="Leiningen: org.testcontainers/database-commons:1.19.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.testcontainers/jdbc:1.19.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.testcontainers/kafka:1.19.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.testcontainers/mongodb:1.17.6" level="project" />
+    <orderEntry type="library" name="Leiningen: org.testcontainers/mssqlserver:1.17.6" level="project" />
+    <orderEntry type="library" name="Leiningen: org.testcontainers/mysql:1.17.6" level="project" />
+    <orderEntry type="library" name="Leiningen: org.testcontainers/postgresql:1.19.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.testcontainers/testcontainers:1.19.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.wildfly.common/wildfly-common:1.5.4.Final-format-001" level="project" />
+  </component>
+</module>

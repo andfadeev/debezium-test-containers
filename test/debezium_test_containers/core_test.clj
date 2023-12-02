@@ -14,6 +14,8 @@
            (org.testcontainers.lifecycle Startable Startables)
            (org.testcontainers.utility DockerImageName)))
 
+;; JDBC connector vs Debezium: must see: https://www.confluent.io/en-gb/events/kafka-summit-london-2022/jdbc-source-connector-what-could-go-wrong/
+
 ; https://debezium.io/documentation/reference/stable/integrations/testcontainers.html
 ; https://debezium.io/documentation/reference/stable/transformations/outbox-event-router.html
 ; https://debezium.io/documentation/reference/stable/connectors/postgresql.html
@@ -21,6 +23,8 @@
 ; For Java Quarkus users - https://debezium.io/documentation/reference/stable/integrations/outbox.html
 
 ; Outbox diagram: https://debezium.io/documentation/reference/stable/_images/outbox_pattern.png
+
+; this repo: https://github.com/andfadeev/debezium-test-containers
 
 
 (def DEBEZIUM_OUTBOX_CONNECTOR
